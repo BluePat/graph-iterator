@@ -4,6 +4,6 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (graph-iterator "graph-iterator.cpp" "graph-iterator.h" "graph.h" "graph.cpp")
+add_executable (graph-iterator "graph-iterator.cpp"  "model/graph.h" "model/graph.cpp" "logic/bfs-iterator.h" "logic/iterator.h" "logic/dfs-iterator.cpp" "logic/bfs-iterator.cpp" )
 
 # TODO: Add tests and install targets if needed.
